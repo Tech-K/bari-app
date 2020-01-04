@@ -5,7 +5,7 @@ Cheese reminder and administration application.
 
 <h3>Developers:</h3>
 
- * Mario Peña <a href="https://github.com/Tech-MP">Tech-MP</a>
+ * Mario Peña <a href="https://github.com/MarioPP">MarioPP</a>
  
  * Kevin Blanco <a href="https://github.com/Tech-K">Tech-K</a>
  

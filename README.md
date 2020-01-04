@@ -9,6 +9,6 @@ Cheese reminder and administration application.
  
  * Kevin Blanco <a href="https://github.com/Tech-K">Tech-K</a>
  
- * Haessler Leon
+ * Haessler León <a href="https://github.com/Haessler16">Haessler16</a>
 
 Requirements of the App: https://trello.com/b/aTfqzLQX/quesos-bariquigua

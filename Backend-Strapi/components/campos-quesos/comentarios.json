@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Comentarios",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Comentario": {
+      "type": "richtext"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_campos_quesos_comentarios"
+}

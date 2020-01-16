@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "Etapa",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "Etapa": {
+      "type": "enumeration",
+      "enum": [
+        "En_Curacion",
+        "Terminado"
+      ],
+      "required": true,
+      "default": "En_Curacion"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_campos_quesos_etapas"
+}

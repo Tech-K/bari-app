@@ -1,11 +1,13 @@
 {
+  "connection": "default",
+  "collectionName": "components_campos_quesos_etapas",
   "info": {
     "name": "Etapa",
     "icon": "edit"
   },
   "options": {},
   "attributes": {
-    "Etapa": {
+    "Etapas": {
       "type": "enumeration",
       "enum": [
         "En_Curacion",
@@ -14,7 +16,5 @@
       "required": true,
       "default": "En_Curacion"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_campos_quesos_etapas"
+  }
 }

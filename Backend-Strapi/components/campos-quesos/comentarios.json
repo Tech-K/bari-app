@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_campos_quesos_comentarios",
   "info": {
     "name": "Comentarios",
     "icon": "align-justify"
@@ -8,11 +10,9 @@
     "Comentario": {
       "type": "richtext"
     },
-    "users": {
+    "user": {
       "plugin": "users-permissions",
-      "collection": "user"
+      "model": "user"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_campos_quesos_comentarios"
+  }
 }

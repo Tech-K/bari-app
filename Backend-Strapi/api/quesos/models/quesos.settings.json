@@ -1,0 +1,73 @@
+{
+  "connection": "default",
+  "collectionName": "quesos",
+  "info": {
+    "name": "Quesos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombre_Queso": {
+      "type": "string",
+      "default": "Queso"
+    },
+    "Tipo_Leche": {
+      "type": "string"
+    },
+    "Litros_Usados": {
+      "type": "string"
+    },
+    "Numero_Lote": {
+      "type": "string"
+    },
+    "Numero_Cestas": {
+      "type": "string"
+    },
+    "Total_Unidades_Cestas": {
+      "type": "string"
+    },
+    "Numero_Cuba": {
+      "type": "string"
+    },
+    "Mezclado": {
+      "type": "string"
+    },
+    "Litros_Cuajados": {
+      "type": "string"
+    },
+    "Marca_Cuajo": {
+      "type": "string"
+    },
+    "Tipo_Fermento": {
+      "type": "string"
+    },
+    "Salmuera": {
+      "type": "string"
+    },
+    "Queso_Imagen": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Recordatorio": {
+      "type": "datetime"
+    },
+    "Comentario": {
+      "type": "component",
+      "repeatable": true,
+      "component": "campos-quesos.comentarios"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "Etapa_del_Queso": {
+      "type": "component",
+      "repeatable": false,
+      "component": "campos-quesos.etapa"
+    }
+  }
+}
